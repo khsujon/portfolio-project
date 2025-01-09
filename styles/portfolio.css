@@ -8,8 +8,49 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* Common Shared */
+.text-primary{
+    color: #FD6E0A;
+}
 
+.dark-2{
+    color: #474747;
+}
 
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+
+/* Nav Section Design */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
 }
