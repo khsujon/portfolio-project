@@ -27,6 +27,12 @@
     border: none;
 }
 
+.header{
+    background-image: url(../images/developer.png) , url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
 /* Nav Section Design */
 nav{
     display: flex;
@@ -53,4 +59,34 @@ nav ul li {
 nav li a {
     text-decoration: none;
     font-size: 20px;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greeting{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    color: #181818;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.banner-desc{
+    color: #757575;
+    font-size: 18px;
+}
+
+.banner-profile-img{
+    width: 580px;
 }
